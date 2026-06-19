@@ -10,6 +10,8 @@ body:
   attributes:
     value: |
       Thanks for taking the time to fill out this bug report!
+
+      **Make sure to submit separate bug reports if you encountered multiple bugs.**
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
@@ -21,8 +23,19 @@ body:
   id: what-happened
   attributes:
     label: What happened?
-    description: Also tell us, what did you expect to happen?
+    description: Also tell us, what did you expect to happen, and what were you doing when it occured?
     placeholder: Tell us what happened!
+  validations:
+    required: true
+- type: dropdown
+  id: prevalence
+  attributes:
+    label: How often does this bug happen?
+    options:
+      - "Consistently"
+      - "Often"
+      - "Sometimes"
+      - "Rarely"
   validations:
     required: true
 - type: upload
