@@ -1,0 +1,35 @@
+name: Feature Request
+description: File a request for a feature you would like to see!
+labels: ["feature request", "needs triage"]
+assignees:
+  - IsCactus0
+projects:
+  - "IsCactus0/2"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug report!
+      
+      Make sure to fill out separate feature request forms if you have more than 1 request.
+- type: checkboxes
+  attributes:
+    label: Is there an existing request for this?
+    description: Please search to see if a request already exists for the feature you want added.
+    options:
+    - label: I have searched the existing feature requests
+      required: true
+- type: textarea
+  id: what-is-it
+  attributes:
+    label: What is the feature?
+    placeholder: Tell us what you want to see!
+  validations:
+    required: true
+- type: upload
+  id: screenshots
+  attributes:
+    label: Upload screenshots
+    description: If applicable, add screenshots to help explain your ideas.
+  validations:
+    required: false
