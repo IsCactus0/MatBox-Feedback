@@ -1,0 +1,27 @@
+name: Feedback
+description: Give us some feedback about the app!
+labels: ["feedback", "triage"]
+assignees:
+  - IsCactus0
+projects:
+  - "IsCactus0/2"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this feedback report!
+- type: textarea
+  id: thoughts
+  attributes:
+    label: What are your thoughts?
+    placeholder: Tell us what you think!
+  validations:
+    required: true
+- type: checkboxes
+  id: recommendation
+  attributes:
+    label: Would you recommend this app to someone you know?
+    options:
+      - label: "Yes"
+      - label: "No"
+  
