@@ -1,6 +1,8 @@
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P8S621PK82)
+<div align="center">
+  <picture>
+      <img src="https://raw.githubusercontent.com/IsCactus0/MatBox-Feedback/refs/heads/main/Square44x44Logo.altform-unplated_targetsize-256.png">
+    </picture>
+</div>
 
 # `MatBox`
 `MatBox` is a local-first asset library for creators who need more than folders.  
@@ -15,6 +17,8 @@ It helps turn scattered folders into a focused library you can browse, preview, 
 > [!NOTE]  
 > If you have any issues with the app, or just want to share your thoughts, post it in the [`Issues Page`](https://github.com/IsCactus0/MatBox/issues).
 > 
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P8S621PK82)  
 
 ## Contents
 1. [`Features`](#features)
