@@ -1,3 +1,7 @@
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P8S621PK82)
+
 # `MatBox`
 `MatBox` is a local-first asset library for creators who need more than folders.  
 Import your creative files, preview them quickly, and organise them with tags, collections, projects, and goals so the right asset is easier to find when you need it.  
