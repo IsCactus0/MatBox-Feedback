@@ -1,13 +1,15 @@
 name: Bug Report
 description: File a bug / issue report
-title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - IsCactus
+  - IsCactus0
+projects:
+  - "IsCactus0/1"
 body:
 - type: markdown
   attributes:
-    value: Thanks for taking the time to fill out this bug report!
+    value: |
+      Thanks for taking the time to fill out this bug report!
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
@@ -20,8 +22,7 @@ body:
   attributes:
     label: What happened?
     description: Also tell us, what did you expect to happen?
-    placeholder: Tell us what you see!
-    value: "A bug happened!"
+    placeholder: Tell us what happened!
   validations:
     required: true
 - type: upload
