@@ -9,9 +9,9 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to fill out this bug report!
+      Thanks for taking the time to fill out this feature request!
       
-      Make sure to fill out separate feature request forms if you have more than 1 request.
+      **Make sure to fill separate feature request forms if you have multiple ideas.**
 - type: checkboxes
   attributes:
     label: Is there an existing request for this?
